@@ -745,7 +745,7 @@ public class ArrivalsListFragment extends ListFragment
         }
 
         List<String> items = UIUtils
-                .buildTripOptions(getActivity(), isRouteFavorite, hasUrl, isReminderVisible, hasRouteFilter,occupancy, occupancyState);
+                .buildTripOptions(getActivity(), isRouteFavorite, hasUrl, isReminderVisible, hasRouteFilter, occupancy, occupancyState);
         List<Integer> icons = UIUtils.buildTripOptionsIcons(isRouteFavorite, hasUrl, occupancy);
 
         ListAdapter adapter = new ArrayAdapterWithIcon(getActivity(), items, icons);
