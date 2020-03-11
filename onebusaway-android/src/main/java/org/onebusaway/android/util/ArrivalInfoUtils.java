@@ -23,7 +23,6 @@ import org.onebusaway.android.ui.ArrivalInfo;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.Collections;
